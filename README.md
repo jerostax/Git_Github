@@ -39,7 +39,7 @@ Git est l'outil qui permet de gérer nos différents projets et github est la pl
 
 - Créez votre projet puis placez vous dedans avec GIT bash ou votre shell
 - Tapez la commande `git init`, ceci va générer un fichier caché .git qui va initialiser GIT dans votre projet
-- Si ce n'est pas deja le cas, enregistrez sur votre GIT bash avec cette commande `git config --global user.name 'votreNom'`
+- Si ce n'est pas déjà le cas, enregistrez vous sur votre GIT bash avec cette commande `git config --global user.name 'votreNom'`
 - Réppètez l'opération pour y enregistrer votre mail `git config --global user.email 'votreemail@exemple.com'`
 
 ### 5 - git add & git status <a name='add-status'></a>
@@ -48,7 +48,7 @@ Git est l'outil qui permet de gérer nos différents projets et github est la pl
 - Imagineons que nous voulions ajouter tous les fichiers html et css, on peut faire la commande suivante `git add *.html *.css`
 - La commande `git status` permet de nous donner le status de nos fichiers dans le projet (en vert ils sont add, en rouge ils ne sont pas add)
 
-### 6 - git rm <a name='rm></a>
+### 6 - git rm <a name='rm'></a>
 
 - On peut enlever un fichier qui a été add avec la commande `git rm --cached nomdufichier` ou un dossier avec tous ces fichiers avec `git rm -r --cached nomdudossier` ou `git rm -r --cached .` pour enlever tous les fichiers add (attention, si on ne met pas les tirets on supprime le fichier)
 
@@ -58,11 +58,11 @@ Git est l'outil qui permet de gérer nos différents projets et github est la pl
 
 ### 8 - git commit <a name='commit'></a>
 
-- On utilise la commande `git commit -m 'première sauvegarde'` pour sauvegardez nos fichiers, on doit toujours ajouter un commentaire qui représente notre changement
+- On utilise la commande `git commit -m 'première sauvegarde'` pour sauvegarder nos fichiers, on doit toujours ajouter un commentaire qui représente notre changement
 
 ### 9 - .gitignore <a name='gitignore'></a>
 
-- On peut créer un fichier .gitignore, tous les fichiers que nous renseignerons dedans seront ignoré par GIT et ne seront donc pas commit
+- On peut créer un fichier .gitignore, tous les fichiers que nous renseignerons dedans seront ignorés par GIT et ne seront donc pas commit
 
 ### 10 - Les Branches <a name='branche'></a>
 
@@ -78,7 +78,7 @@ Git est l'outil qui permet de gérer nos différents projets et github est la pl
 - Créez un nouveau projet en créant un "New repository"
 - Nommez le et ajoutez une description si vous voulez puis "Create repository"
 - Il faut maintenant relier votre repo Github à votre projet GIT avec la commande que Github vous fourni `git remote add origin hhtps://github.com/votrenomgithub/nomdurepo.git`
-- Ensuite on à plus qu'a push le code sur le repo Github avec la commande suivante `git push origin master`
+- Ensuite on à plus qu'à push le code sur le repo Github avec la commande suivante `git push origin master`
 - Votre projet est maintenant sur votre repo Gitub
 - Vous pouvez depuis votre repo récupérer toutes les version de votre codes et branches
 - Vous pouvez aussi récupérer les changements qui ont été push sur le repo (par un autre dev par exemple) avec la commande `git pull`
@@ -91,4 +91,4 @@ Git est l'outil qui permet de gérer nos différents projets et github est la pl
 ### 13 - git clone <a name='clone'></a>
 
 - Depuis votre repo vous avez accès à un lien "clone" que vous pouvez utiliser pour cloner votre projet sur votre ordinateur
-- il suffit de taper `git clone https://lienfournipargithub.git`
+- il suffit de taper `git clone htps://github.com/votrenomgithub/nomdurepo.git`
